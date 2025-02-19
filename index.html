@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Grupo GB</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/GB_negro.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Mapa -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo d-flex align-items-center ">
+            <img src="assets/img/GB-blanco.png" alt="">
+        </a>
+
+        <!-- Menú de Navegación -->
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#sobrenosotros">Nosotros</a></li>
+                <li><a href="#marcas">Marcas</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#cobertura">Cobertura</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+      </div>
+
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+    </div>
+</header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero.png" class="img-fluid animated" alt="">
+          </div>
+
+          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1>Somos Tu Aliado <span>Estratégico</span></h1>
+            <p>Selección, Distribución y Gestión de Personal a Nivel Nacional</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Conócenos</a>
+             <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
+            </div>
+            <div class="d-flex mt-5">
+              <img src="./assets/img/repse_blanco.png" alt="" class="p-1 m-2" height="50px">
+              <img src="./assets/img/stps_blanco.png" alt="" class="p-1 m-2" height="50px">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="sobrenosotros" class="about section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Nosotros</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center gy-5">
+          <div class="col-12 content text-center"> 
+            <h2>Más de 10 años de experiencia</h2>
+            <p>Somos una agencia líder en distribución y selección de personal, comprometida con impulsar la productividad y la cobertura para las marcas que representamos. Nuestro enfoque va más allá de los resultados: creamos experiencias memorables y fortalecemos el reconocimiento nacional de cada marca con la que colaboramos.</p>
+            <!--<a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>-->
+          </div>
+          <div class="col-12">
+            <div class="row gy-4 icon-boxes">
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box info-item text-center"> 
+                  <i class="bi bi-rocket-takeoff" style="color: #ef2161;"></i>
+                  <h3>112%</h3>
+                  <p>Alcances de Productividad</p>
+                </div>
+              </div> <!-- End Icon Box -->
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box text-center"> <!-- Añadir clase text-center -->
+                  <i class="bi bi-award"  style="color: #ef2161;"></i>
+                  <h3>6%</h3>
+                  <p>Rotación de personal</p>
+                </div>
+              </div> <!-- End Icon Box -->
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box text-center"> <!-- Añadir clase text-center -->
+                  <i class="bi bi-lightning-charge" style="color: #ef2161;"></i>
+                  <h3>+2000</h3>
+                  <p>Empleados Activos</p>
+                </div>
+              </div> <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+    
+    <!-- Marcas Section -->
+    <section id="marcas" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nuestras marcas</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="pic"><img src="assets/img/GBSaurio.png" class="img-fluid" alt=""></div>
+              <div class="member-info text-center">
+                <h4><strong>Benber</strong></h4>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-tiktok"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a href="https://grupobenjes.viterbit.site/" target="_blank" class="btnColabOrange">Zona de Colaboradores</a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/GBRhino.png" class="img-fluid" alt=""></div>
+              <div class="member-info text-center">
+                <h4><strong>Benjes</strong></h4>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-tiktok"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a href="https://grupobenber.viterbit.site/" target="_blank" class="btnColabBlue">Zona de Colaboradores</a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Marcas Section -->
+
+    <!-- Services Section -->
+    <section id="servicios" class="about section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>nuestros servicios</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center gy-5">
+          <div class="col-12">
+            <div class="row gy-4 icon-boxes">
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box text-center"> 
+                  <i class="bi bi-people"  style="color: #ef2161;"></i>
+                  <h3>Reclutamiento y Gestión de Promotores</h3>
+                  <ul>
+                    <li class="bi-check">Atracción y Evaluación de Talento</li>
+                    <li class="bi-check">Supervisión y Desarrollo del Equipo</li>
+                    <li class="bi-check">Reporteo y Análisis de Desempeño</li>
+                  </ul>    
+                  <a href="./reclutamiento.html" class="btn-services">Más Información</a>
+                </div>
+              </div> <!-- End Icon Box -->
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box text-center"> <!-- Añadir clase text-center -->
+                  <i class="bi bi-cash-stack"  style="color: #ef2161;"></i>
+                  <h3>Maquila de Nómina y Administración de Personal</h3>
+                  <ul>
+                    <li class="bi-check">Gestión de Nómina</li>
+                    <li class="bi-check">Administración de Personal</li>
+                  </ul>   
+                  <a href="./nomina.html" class="btn-services">Más Información</a>
+                </div>
+              </div> <!-- End Icon Box -->
+              <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box text-center"> <!-- Añadir clase text-center -->
+                  <i class="bi bi-shop"  style="color: #ef2161;"></i>
+                  <h3>Servicios Especializados en Punto de Venta</h3>
+                  <ul>
+                    <li class="bi-check">Auditoría y Control de Calidad</li>
+                    <li class="bi-check">Logística y Operaciones</li>
+                    <li class="bi-check">Representación de Marca</li>
+                  </ul>
+                  <a href="./servicios-especializados.html" class="btn-services">Más Información</a>
+                </div>
+              </div> <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Mapa Cobertura -->
+    <section id="cobertura" class="section">
+       <!-- Section Title -->
+       <div class="container section-title" data-aos="fade-up">
+        <h2>Cobertura</h2>
+      </div><!-- End Section Title -->
+      <!-- Estadísticas Animadas -->
+      <div class="container stats-container">
+        <div class="stat">
+          <span class="count" data-target="17" style="color: #ef2161;">0</span>
+          <p><strong>Estados</strong></p>
+        </div>
+        <div class="stat">
+          <span class="count" data-target="110" data-type="plus" style="color: #ef2161;">0</span>
+          <p><strong>Ciudades</strong></p>
+        </div>
+        <div class="stat">
+          <span class="count" data-target="900" data-type="plus" style="color: #ef2161;">0</span>
+          <p><strong>Puntos de Venta</strong></p>
+        </div>
+      </div>
+      <div id="map"></div>
+    </section>
+
+    <!-- Socios -->
+    <section id="clients" class="clients section">
+
+      <!-- Socios Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Socios comerciales</h2>
+      </div><!-- End Section Title -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <a href="https://www.izzi.mx" target="_blank">
+              <img src="assets/img/clients/izzi.png" class="img-fluid logo-clientes" alt="Izzi">
+            </a>
+          </div>
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <a href="https://www.movistar.com.mx" target="_blank">
+              <img src="assets/img/clients/movistas.png" class="img-fluid logo-clientes" alt="Movistar">
+            </a>
+          </div>
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <a href="https://www.sky.com.mx" target="_blank">
+              <img src="assets/img/clients/sky.png" class="img-fluid logo-clientes" alt="Sky">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Clients Section -->
+
+    <!-- Cadenas -->
+    <section id="clients" class="clients section">
+
+      <!-- Cadenas Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Cadenas Amigas</h2>
+      </div><!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 1000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": false
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 250
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/img/cadenas/elektra-1.svg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/cadenas/coppel.jpg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/cadenas/walmart.svg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/cadenas/suburbia.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/cadenas/aurrera.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/cadenas/soriana.svg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section><!-- /Cadenas Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Preguntas</span><strong> Frecuentes</strong></h3>
+              <p>
+                Encuentra respuestas rápidas a las dudas más comunes,
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Dirección</h3>
+                <p>Blvrd de los Reyes 6431, Oficina 2202, </p>
+                <p>72830, Tlaxcalancingo, Puebla</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Llámanos</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Correo Electrónico</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-whatsapp flex-shrink-0"></i>
+              <div>
+                <h3>Whatsapp</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+          <div class="col-lg-8">
+            <form action="https://formspree.io/f/mgvorarv" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nombre" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Correo Electrónico" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="empresa" placeholder="Empresa" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Enviar</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Grupo GB</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Blvrd de los Reyes 6431, Oficina 2202</p>
+            <p>72830 San Bernardino Tlaxcalancingo, Puebla</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Correo Electrónico:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.facebook.com/grupobenberoficial/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/grupo_benber/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/grupo-benber-oficial/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@grupogb_oficial?_t=8l3nEQvsaBi&_r=1"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
+            <li><a href="#cobertura">Cobertura</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="./reclutamiento.html">Reclutamiento y Gestión de Promotores</a></li>
+            <li><a href="./nomina.html">Maquila de Nómina y Administración de Personal</a></li>
+            <li><a href="./servicios-especializados.html">Servicios Especializados en Punto de Venta</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Suscríbete a nuestro boletín de informativo y recibe las últimas noticias sobre nuestros servicios.</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Suscríbete"></div>
+            <div class="loading">Cargando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Su solicitud de suscripción ha sido enviada. ¡Gracias!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Grupo GB</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">GDRS</a> 
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Mapa -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Animaciones -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
