@@ -229,12 +229,12 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 
 // Pines Benber
 const orangeIcon = L.icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png', // Icono gris claro
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-  iconSize: [25, 41], // Tamaño del icono
-  iconAnchor: [12, 41], // Punto de anclaje
-  popupAnchor: [1, -34], // Ajuste del popup
-  shadowSize: [41, 41] // Tamaño de la sombra
+  iconUrl: './assets/img/GB-Saurio.png', // Icono gris claro
+  //shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  iconSize: [50, 50], // Tamaño del icono
+  iconAnchor: [25, 50], // Punto de anclaje
+  popupAnchor: [0, -50], // Ajuste del popup
+  //shadowSize: [41, 41] // Tamaño de la sombra
 });
 
 const pines = [

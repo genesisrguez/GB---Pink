@@ -938,7 +938,7 @@ section,
 }
 
 .hero .hero-img {
-  width: 50%;
+  width: 40rem;
   height: auto;
 }
 
@@ -1216,7 +1216,7 @@ section,
 /* Botón naranja */
 .btnColabOrange{
   color: var(--contrast-color);
-  background: #e77e20;
+  background: #ff8300;
   font-family: var(--heading-font);
   font-weight: bold;
   font-size: 15px;
@@ -1238,7 +1238,7 @@ section,
 /* Botón naranja */
 .btnColabBlue {
   color: var(--contrast-color);
-  background: #143f6e;
+  background: #004b8f;
   font-family: var(--heading-font);
   font-weight: bold;
   font-size: 15px;
